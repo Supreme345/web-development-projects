@@ -54,6 +54,46 @@ body {
 .info-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: rgb(159, 144, 123);
+}
+.info-header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.info-header {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.info-cards {
+    display: flex;
+    gap: 50px;
+}
+.positional-engine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 286.312px;
+    background-color: rgb(189, 182, 171);
+}
+.positional-engine img {
+    height: 150px;
+    width: 286.312px;
+}
+.similar-positions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 286.312px;
+    background-color: rgb(189, 182, 171);
+}
+.similar-positions img {
+    height: 150px;
+    width: auto;
 }
 li {
     list-style: none;
