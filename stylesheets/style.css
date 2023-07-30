@@ -9,7 +9,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    background-color: rgb(115, 165, 115);
+    background-color: rgb(105, 148, 105);
     height: 40px;
     padding: 10px;
 }
@@ -25,6 +25,35 @@ body {
 .header-links ul {
     display: flex;
     gap: 10px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(151, 191, 151);
+}
+.home-page-text {
+    padding: 25px;
+}
+.home-page-text button {
+    background-color: rgb(100, 162, 183);
+    font-size: large;
+    padding: 5px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 2px;
+}
+.home-page-image {
+    padding: 25px;
+}
+.home-page-image img{
+    height: 250px;
+    width: auto;
+}
+.info-section {
+    display: flex;
+    flex-direction: column;
 }
 li {
     list-style: none;
