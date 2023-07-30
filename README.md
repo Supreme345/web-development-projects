@@ -1,2 +1,2 @@
 # landing-page-project
-Here I will post public projects in my journey of learning web development
+A landing page I am building in order to practice website layouts.
