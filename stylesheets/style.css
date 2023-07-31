@@ -9,7 +9,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    background-color: rgb(105, 148, 105);
+    background-color: rgb(42, 103, 124);
     height: 40px;
     padding: 10px;
 }
@@ -31,18 +31,19 @@ body {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    background-color: rgb(151, 191, 151);
+    background-color: rgb(108, 172, 193);
 }
 .home-page-text {
     padding: 25px;
 }
 .home-page-text button {
-    background-color: rgb(100, 162, 183);
-    font-size: large;
-    padding: 5px;
+    background-color: rgb(68, 68, 235);
+    font-size: 15px;
+    padding: 8px;
     border-radius: 6px;
     border-style: solid;
     border-width: 2px;
+    color: white;
 }
 .home-page-image {
     padding: 25px;
@@ -57,7 +58,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 25px;
-    background-color: rgb(159, 144, 123);
+    background-color: rgb(88, 87, 87);
 }
 .info-header-section {
     display: flex;
@@ -78,7 +79,9 @@ body {
     flex-direction: column;
     align-items: center;
     width: 286.312px;
-    background-color: rgb(189, 182, 171);
+    background-color: rgb(166, 162, 162);
+    border-style: solid rgba(68, 68, 203, 0.703);
+    border-width: 8px;
 }
 .positional-engine img {
     height: 150px;
@@ -89,7 +92,9 @@ body {
     flex-direction: column;
     align-items: center;
     width: 286.312px;
-    background-color: rgb(189, 182, 171);
+    background-color: rgb(166, 162, 162);
+    border-style: solid rgba(68, 68, 203, 0.703);
+    border-width: 8px;
 }
 .similar-positions img {
     height: 150px;
@@ -100,7 +105,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 50px;
-    background-color: rgb(244, 236, 236);
+    background-color: rgb(240, 237, 237);
 }
 .quote-box {
     display: flex;
@@ -113,6 +118,47 @@ body {
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
+}
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.call-to-action-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+.text-header {
+    margin: 0px;
+}
+.text p {
+    margin: 0px;
+    margin-top: 5px;
+}
+.button button{
+    padding: 8px;
+    background-color: rgb(100, 162, 183);
+    border-radius: 4px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(97, 97, 97);
+    padding: 5px;
+}
+.copyright-info {
+    color: white;
+    padding: 5px;
 }
 li {
     list-style: none;
